@@ -1,0 +1,11 @@
+name: saludo en push
+
+on: [push]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+
+    steps:
+    -name: saludar
+    run: echo "Jola, Github"
