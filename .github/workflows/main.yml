@@ -8,4 +8,4 @@ jobs:
 
     steps:
     -name: saludar
-    run: echo "Jola, Github"
+    run: echo "Hola, Github"
